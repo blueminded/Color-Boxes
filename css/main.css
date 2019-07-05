@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+	font-family: 'Inconsolata', monospace;
+	font-size:18px;
+	margin: 0;
+	padding:0;
+	background-color: #a2bd8e;
+}
+
+.boxes-holder{
+	display: flex;
+	flex-flow: row wrap;
+	margin: 100px;
+}
+
+.box-item{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin:10px;
+	border-radius: 10px;
+	min-width: 200px;
+
+}
+
+.box-item h1, .box-item h2, .box-item h3{
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,.4);
+}
